@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color:black;
+    color:#F6F6F6; 
+}
+.titulo-destaque {
+    color: #22D4F5;
+
+}
+
+.redes-sociais a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+  }
+  
+  .botao-facebook {
+    background-color: #3b5998;
+  }
+  
+  .botao-instagram {
+    background-color: #e4405f;
+  }
+  
+  .botao-linkedin {
+    background-color: #0077b5;
+  }
+  
+  .botao-twitter {
+    background-color: #55acee;
+  }
+  
+
+.apresentacao {
+   margin: 10%;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+.apresentacao__conteudo  {
+    width: 815px;
+}
+
+.apresentacao__conteudo__titulo  {
+    font-size: 40px;
+    font-family: 'krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 19px;
+
+ }
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;    
+
+ }
+ .apresentacao__links__link {
+    background-color: #22D4F5;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px;
+    margin-top: 30px;
+
+
+ }
+ .mainimag {
+    width: 650px;
+    height:650px;
+    border-image: 30 round;
+  }
